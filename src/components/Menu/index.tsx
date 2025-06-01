@@ -60,7 +60,7 @@ const Menu: FC<Props> = ({ className, ...props }) => {
         ))}
         <Link
           className="absolute -top-14 right-0 z-10 flex items-center gap-2 rounded-full bg-black/10 px-6 py-3 backdrop-blur-lg transition-colors hover:bg-black/5 hover:dark:bg-white/5"
-          href="http://51.195.14.232:25697"
+          href="https://discord.gg/TwEd8RTDyb"
           target="_blank"
         >
           <Map />

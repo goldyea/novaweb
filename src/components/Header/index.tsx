@@ -31,11 +31,7 @@ const Header: FC = () => {
       >
         <div className="container flex items-center justify-between py-4">
           <Link href="/">
-            <img
-              src="https://safe.soul.lol/jCZNbXMr.webp"
-              alt="Logo"
-              className="h-20 w-20"
-            />
+            <img src="/Kyroxi.png" alt="Logo" className="h-20 w-20" />
           </Link>
           <nav className="absolute left-1/2 -translate-x-1/2 max-xl:hidden">
             <ul className="flex items-center gap-4">

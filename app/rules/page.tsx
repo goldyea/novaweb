@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { TextGenerateEffect } from "@/components/TextGenerateEffect";
 
 export const metadata: Metadata = {
-  title: "NovaMC - Rules",
-  description: "Rules for the NovaMC minecraft server",
+  title: "Kyrox - Rules",
+  description: "Rules for the KyroxMC minecraft server",
 };
 
 const Rules: FC = () => {
   return (
     <main className="flex h-screen items-center justify-center">
-      <h1 className="text-center text-3xl">
+      <h1 className="text-center font-minecraftia text-3xl">
         <TextGenerateEffect words={"The section is under development..."} />
       </h1>
     </main>

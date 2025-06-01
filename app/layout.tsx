@@ -17,36 +17,36 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "NovaMC",
+  title: "KyroxMC",
   description:
-    "NovaMC — A premium Minecraft server experience. In search of the incredible.",
+    "Kyrox — A premium Minecraft server experience. In search of the incredible.",
   icons: {
-    icon: "/NovaMC.webp",
-    shortcut: "/NovaMC.webp",
-    apple: "/NovaMC.webp",
+    icon: "/KyroxMC.png",
+    shortcut: "/KyroxMC.png",
+    apple: "/KyroxMC.png",
   },
   openGraph: {
-    title: "NovaMC",
+    title: "KyroxMC",
     description:
-      "NovaMC — A premium Minecraft server experience. In search of the incredible.",
+      "Kyrox — A premium Minecraft server experience. In search of the incredible.",
     url: "https://your-site.com", // change to your actual site URL
-    siteName: "NovaMC",
+    siteName: "KyroxMC",
     images: [
       {
-        url: "/NovaMC.webp",
+        url: "/KyroxMC.png",
         width: 512,
         height: 512,
-        alt: "NovaMC Icon",
+        alt: "KyroxMC Icon",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "NovaMC",
+    title: "KyroxMC",
     description:
-      "NovaMC — A premium Minecraft server experience. In search of the incredible.",
-    images: ["/NovaMC.webp"],
+      "Kyrox — A premium Minecraft server experience. In search of the incredible.",
+    images: ["/KyroxMC.png"],
   },
 };
 

@@ -49,8 +49,8 @@ const Home: FC = () => {
     <main className="container flex h-screen flex-col items-center justify-center text-center">
       <AuroraBackground className="absolute inset-x-0 top-0 -z-50 animate-show" />
       <img
-        src="https://safe.soul.lol/oIunoTqG.png"
-        alt="NovaMC Logo"
+        src="/Kyrox.png"
+        alt="KyroxMC Logo"
         className="h-20 sm:h-32 lg:h-40 w-auto animate-show"
       />
       <TextGenerateEffect

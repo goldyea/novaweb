@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { TextGenerateEffect } from "@/components/TextGenerateEffect";
 
 export const metadata: Metadata = {
-  title: "NovaMC - About Us",
-  description: "About the origins of NovaMC and time line.",
+  title: "Kyrox - About Us",
+  description: "About the origins of the Kyrox minecraft server and time line.",
 };
 
 const AboutUs: FC = () => {
