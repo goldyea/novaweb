@@ -1,6 +1,6 @@
 "use client";
 import { FC, useEffect, useRef, useState } from "react";
-import Logo from "@/assets/icons/brand.svg";
+import Logo from "@/assets/icons/favicon.ico";
 import Link from "next/link";
 import { navItems } from "@/constants/nav";
 import { Switcher } from "@/features/theme";
@@ -31,7 +31,11 @@ const Header: FC = () => {
       >
         <div className="container flex items-center justify-between py-4">
           <Link href="/">
-            <Logo />
+            <img
+              src="https://safe.soul.lol/jCZNbXMr.webp"
+              alt="Logo"
+              className="h-20 w-20"
+            />
           </Link>
           <nav className="absolute left-1/2 -translate-x-1/2 max-xl:hidden">
             <ul className="flex items-center gap-4">
@@ -51,7 +55,7 @@ const Header: FC = () => {
                   href="http://51.195.14.232:25697"
                   target="_blank"
                 >
-                  Карта
+                  Map
                 </Link>
               </li>
             </ul>

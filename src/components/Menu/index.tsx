@@ -64,7 +64,7 @@ const Menu: FC<Props> = ({ className, ...props }) => {
           target="_blank"
         >
           <Map />
-          Карта
+          Map
         </Link>
       </ul>
     </nav>

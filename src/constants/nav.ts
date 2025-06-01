@@ -1,48 +1,48 @@
 export const navItems = [
   {
     href: "/",
-    title: "Главная",
+    title: "Home",
   },
   {
     href: "/about-us",
-    title: "О нас",
+    title: "About Us",
   },
   {
     href: "/rules",
-    title: "Правила",
+    title: "Rules",
   },
   {
     href: "/wiki",
-    title: "Вики",
+    title: "Wikipedia",
   },
 ];
 
 export const wikiItems = [
   {
     href: "/wiki",
-    title: "Введение",
+    title: "Introduction",
   },
   {
     href: "/wiki/faq",
-    title: "Часто задаваемые вопросы",
+    title: "Frequently Asked Questions",
   },
   {
     href: "/wiki/commands",
-    title: "Команды",
+    title: "Commands",
   },
 ];
 
 export const featuresItems = [
   {
     href: "/wiki/voice",
-    title: "Голосовой чат",
+    title: "Voice Chat",
   },
   {
     href: "/wiki/dynamic-light",
-    title: "Динамическое освещение",
+    title: "Dynamic Lighting",
   },
   {
     href: "/wiki/hud",
-    title: "Переработанный HUD",
+    title: "Redesigned HUD",
   },
 ];

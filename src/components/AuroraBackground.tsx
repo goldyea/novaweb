@@ -20,7 +20,14 @@ export const AuroraBackground = ({
         )}
         {...props}
       >
+        {/* Background image with grayscale and low opacity */}
         <div className="absolute inset-0 -z-50 overflow-hidden">
+          <div
+            className="absolute inset-0 bg-cover bg-center opacity-20 grayscale"
+            style={{ backgroundImage: "url('https://i.imgur.com/maPYD.jpg')" }}
+          ></div>
+
+          {/* Original aurora background effect */}
           <div
             className={clsx(
               `

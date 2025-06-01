@@ -35,7 +35,7 @@ const Switcher: FC = () => {
           )}
         >
           <span className="flex items-center gap-2">
-            <Sun /> Светлая
+            <Sun /> Light
           </span>
           {theme === "light" && <Check size={16} />}
         </DropdownMenuItem>
@@ -50,7 +50,7 @@ const Switcher: FC = () => {
           )}
         >
           <span className="flex items-center gap-2">
-            <Moon /> Темная
+            <Moon /> Dark
           </span>
           {theme === "dark" && <Check size={16} />}
         </DropdownMenuItem>
@@ -65,7 +65,7 @@ const Switcher: FC = () => {
           )}
         >
           <span className="flex items-center gap-2">
-            <LaptopMinimal /> Системная
+            <LaptopMinimal /> Systematic
           </span>
           {theme === "system" && <Check size={16} />}
         </DropdownMenuItem>
