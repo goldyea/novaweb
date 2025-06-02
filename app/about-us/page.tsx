@@ -79,8 +79,8 @@ const AboutUs: FC = () => {
                       />
                     </CarouselItem>
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="!block !-left-4 bg-white/80 hover:bg-white" />
+                  <CarouselNext className="!block !-right-4 bg-white/80 hover:bg-white" />
                 </Carousel>
               </div>
             </div>
@@ -136,8 +136,8 @@ const AboutUs: FC = () => {
                       />
                     </CarouselItem>
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="!block !-left-4 bg-white/80 hover:bg-white" />
+                  <CarouselNext className="!block !-right-4 bg-white/80 hover:bg-white" />
                 </Carousel>
               </div>
             </div>
@@ -193,8 +193,8 @@ const AboutUs: FC = () => {
                       />
                     </CarouselItem>
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="!block !-left-4 bg-white/80 hover:bg-white" />
+                  <CarouselNext className="!block !-right-4 bg-white/80 hover:bg-white" />
                 </Carousel>
               </div>
             </div>
@@ -260,8 +260,8 @@ const AboutUs: FC = () => {
                       />
                     </CarouselItem>
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="!block !-left-4 bg-white/80 hover:bg-white" />
+                  <CarouselNext className="!block !-right-4 bg-white/80 hover:bg-white" />
                 </Carousel>
               </div>
             </div>
@@ -326,8 +326,8 @@ const AboutUs: FC = () => {
                       />
                     </CarouselItem>
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="!block !-left-4 bg-white/80 hover:bg-white" />
+                  <CarouselNext className="!block !-right-4 bg-white/80 hover:bg-white" />
                 </Carousel>
               </div>
             </div>
@@ -381,8 +381,8 @@ const AboutUs: FC = () => {
                       />
                     </CarouselItem>
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="!block !-left-4 bg-white/80 hover:bg-white" />
+                  <CarouselNext className="!block !-right-4 bg-white/80 hover:bg-white" />
                 </Carousel>
               </div>
             </div>
