@@ -28,8 +28,8 @@ const config = {
       },
       keyframes: {
         fadein: {
-          "0%": { opacity: 0, transform: "translateY(-2px)" },
-          "100%": { opacity: 1, transform: "translateY(0)" },
+          "0%": { opacity: "0", transform: "translateY(-2px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
         },
         "accordion-down": {
           from: { height: "0" },
