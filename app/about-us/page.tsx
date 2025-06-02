@@ -2,6 +2,13 @@ import type { FC } from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { TextGenerateEffect } from "@/components/TextGenerateEffect";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/Carousel";
 
 export const metadata: Metadata = {
   title: "Kyrox - About Us",
@@ -51,13 +58,30 @@ const AboutUs: FC = () => {
                 Eventually, we felt it was time for a big change.
               </div>
               <div className="mt-4 rounded-md overflow-hidden">
-                <Image
-                  src="/timeline/archives-spawn.png"
-                  alt="Server Launch"
-                  width={600}
-                  height={300}
-                  className="w-full h-auto object-cover transition-transform hover:scale-105 duration-300"
-                />
+                <Carousel>
+                  <CarouselContent>
+                    <CarouselItem>
+                      <Image
+                        src="/timeline/archives-spawn.png"
+                        alt="Server Launch"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/timeline/archives-powers.png"
+                        alt="Server Powers Mod"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
             </div>
           </div>
@@ -91,13 +115,30 @@ const AboutUs: FC = () => {
                 world map with new biomes and exploration opportunities.
               </div>
               <div className="mt-4 rounded-md overflow-hidden">
-                <Image
-                  src="/timeline/archives-spawn.png"
-                  alt="First Major Update"
-                  width={600}
-                  height={300}
-                  className="w-full h-auto object-cover transition-transform hover:scale-105 duration-300"
-                />
+                <Carousel>
+                  <CarouselContent>
+                    <CarouselItem>
+                      <Image
+                        src="/timeline/archives-spawn.png"
+                        alt="First Major Update"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/timeline/archives-spawn.png"
+                        alt="Custom Enchantments"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
             </div>
           </div>
@@ -131,13 +172,30 @@ const AboutUs: FC = () => {
                 event featuring special rewards and limited-time challenges.
               </div>
               <div className="mt-4 rounded-md overflow-hidden">
-                <Image
-                  src="/archives-spawn.png"
-                  alt="Community Milestone"
-                  width={600}
-                  height={300}
-                  className="w-full h-auto object-cover transition-transform hover:scale-105 duration-300"
-                />
+                <Carousel>
+                  <CarouselContent>
+                    <CarouselItem>
+                      <Image
+                        src="/timeline/archives-spawn.png"
+                        alt="Community Milestone"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/timeline/archives-spawn.png"
+                        alt="Community Event"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
             </div>
           </div>
@@ -172,13 +230,39 @@ const AboutUs: FC = () => {
                 in-game location.
               </div>
               <div className="mt-4 rounded-md overflow-hidden">
-                <Image
-                  src="/resources/voice/player-icons.webp"
-                  alt="Voice Chat Integration"
-                  width={600}
-                  height={300}
-                  className="w-full h-auto object-cover transition-transform hover:scale-105 duration-300"
-                />
+                <Carousel>
+                  <CarouselContent>
+                    <CarouselItem>
+                      <Image
+                        src="/resources/voice/player-icons.webp"
+                        alt="Voice Chat Integration"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/resources/voice/icons.webp"
+                        alt="Voice Chat Icons"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/resources/voice/settings.webp"
+                        alt="Voice Chat Settings"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
             </div>
           </div>
@@ -212,13 +296,39 @@ const AboutUs: FC = () => {
                 with realistic light sources and improved visual experience.
               </div>
               <div className="mt-4 rounded-md overflow-hidden">
-                <Image
-                  src="/resources/dynamic-light/e34f7e148ad616695d3a5a92cf46a7314d7aaf3c.webp"
-                  alt="Dynamic Lighting System"
-                  width={600}
-                  height={300}
-                  className="w-full h-auto object-cover transition-transform hover:scale-105 duration-300"
-                />
+                <Carousel>
+                  <CarouselContent>
+                    <CarouselItem>
+                      <Image
+                        src="/resources/dynamic-light/e34f7e148ad616695d3a5a92cf46a7314d7aaf3c.webp"
+                        alt="Dynamic Lighting System"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/resources/dynamic-light/d6a430b85d60290abc46ba6e317c7323531b892f.webp"
+                        alt="Dynamic Lighting Example"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/resources/dynamic-light/8fa8259fbe7033c335be97a191aec7a0d1f1b83c.webp"
+                        alt="Dynamic Lighting Showcase"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
             </div>
           </div>
@@ -245,18 +355,35 @@ const AboutUs: FC = () => {
                 <time className="font-medium text-amber-500">Coming Soon</time>
               </div>
               <div className="text-slate-500 dark:text-slate-400">
-                Major expansion planned with new game modes, custom dimensions,
-                and enhanced server performance for an even better gameplay
-                experience.
+                MASSIVE, yeah no MASSIVE expansion planned with new game modes,
+                custom dimensions, and enhanced server performance for an even
+                better gameplay. experience.
               </div>
               <div className="mt-4 rounded-md overflow-hidden">
-                <Image
-                  src="/timeline/archives-spawn.png"
-                  alt="Future Expansion"
-                  width={600}
-                  height={300}
-                  className="w-full h-auto object-cover transition-transform hover:scale-105 duration-300"
-                />
+                <Carousel>
+                  <CarouselContent>
+                    <CarouselItem>
+                      <Image
+                        src="/blurred.jpg"
+                        alt="Future Expansion"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <Image
+                        src="/blurred2.jpg"
+                        alt="Future Game Modes"
+                        width={600}
+                        height={300}
+                        className="w-full h-auto object-cover"
+                      />
+                    </CarouselItem>
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
               </div>
             </div>
           </div>
