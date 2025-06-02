@@ -42,7 +42,7 @@ const WikiAside: FC = () => {
           ))}
         </ul>
         <ul className="mt-4 text-sm">
-          <h2 className="mb-2 text-lg font-semibold">Особенности сервера</h2>
+          <h2 className="mb-2 text-lg font-semibold">Tuff Features</h2>
           {featuresItems.map((item) => (
             <li key={item.href}>
               <Link
@@ -65,7 +65,7 @@ const WikiAside: FC = () => {
           onClick={handleOpen}
           className="relative flex w-full items-center justify-center gap-2 rounded-md bg-black/5 px-4 py-3 text-center transition-colors hover:bg-white/10 dark:bg-white/5"
         >
-          <Menu /> Навигация
+          <Menu /> Navigation
         </button>
         <div
           onClick={handleClose}
@@ -85,7 +85,7 @@ const WikiAside: FC = () => {
             )}
           >
             <div className="mb-4 flex items-center justify-between">
-              <h3 className="text-lg font-medium">Навигация</h3>
+              <h3 className="text-lg font-medium">Navigation</h3>
               <button onClick={handleClose}>
                 <CloseIcon />
               </button>
@@ -108,9 +108,7 @@ const WikiAside: FC = () => {
               ))}
             </ul>
             <ul className="mt-4">
-              <h2 className="mb-2 text-lg font-semibold">
-                Особенности сервера
-              </h2>
+              <h2 className="mb-2 text-lg font-semibold">Tuff Features</h2>
               {featuresItems.map((item) => (
                 <li key={item.href}>
                   <Link

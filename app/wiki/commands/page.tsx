@@ -15,7 +15,7 @@ const Commands: FC = () => {
   return (
     <>
       <WikiProseBlock>
-        <h1>Команды</h1>
+        <h1>Commands</h1>
         <section id="game-person" className="mb-4">
           <h2 className="group relative m-0 flex items-center">
             <Link

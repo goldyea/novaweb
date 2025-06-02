@@ -2,10 +2,7 @@ import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
-  ],
+  content: ["./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
     container: {
@@ -19,14 +16,21 @@ const config = {
       fontFamily: {
         inter: ["var(--font-inter)"],
         montserrat: ["var(--font-montserrat)"],
+        minecraftia: ['"Minecraftia"', "sans-serif"],
+        minecrafTen: ['"MinecraftTen"', "sans-serif"],
       },
       animation: {
         aurora: "aurora 60s linear infinite",
         show: "show 2s ease",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        fadein: "fadein 0.3s ease-in-out",
       },
       keyframes: {
+        fadein: {
+          "0%": { opacity: 0, transform: "translateY(-2px)" },
+          "100%": { opacity: 1, transform: "translateY(0)" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
